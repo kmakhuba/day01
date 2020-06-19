@@ -1,2 +1,2 @@
 #!/bin/sh
-ifconfig
+ifconfig | grep ether | cut -c 8- | sed 's/ $//g'

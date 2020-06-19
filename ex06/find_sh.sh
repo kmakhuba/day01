@@ -1,2 +1,2 @@
-~/bin $ 
-find . -type f \ ( -name "*.sh -o -name " \)
+#!/bin/sh 
+find . -type f ! -name "*\.sh"
